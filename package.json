@@ -1,0 +1,29 @@
+{
+  "name": "antora-simple",
+  "version": "1.0.0",
+  "description": "NPM packages for Antora",
+  "homepage": "https://github.com/dunmaksim/antora-simple#readme",
+  "bugs": {
+    "url": "https://github.com/dunmaksim/antora-simple/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunmaksim/antora-simple.git"
+  },
+  "license": "ISC",
+  "author": "Maxim Dunaevskiy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@antora/assembler": "^1.0.0-beta.20",
+    "@antora/cli": "^3.1.15",
+    "@antora/pdf-extension": "^1.0.0-beta.20",
+    "@mermaid-js/mermaid-cli": "^11.16.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.3.0": true
+  }
+}
